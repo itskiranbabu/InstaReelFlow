@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import VideoCard from '../components/VideoCard';
 import axios from 'axios';
 import '../styles/Profile.css';
+import '../styles/profile.css';
+
 
 const Profile = () => {
   const { user } = useAuth();
